@@ -359,6 +359,10 @@ p, li, span, label, input, textarea{
     font-size: 14px;
 }
 
+textarea {
+    resize: none;
+}
+
 
 .input-field{
     width: 100%;

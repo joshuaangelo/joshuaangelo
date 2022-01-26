@@ -33,7 +33,7 @@
                     </div>
 
                     <ul id="navigation">
-                        <li><a href="#">Contact</a></li>
+                        <li><a target="_blank" href="https://docs.google.com/document/d/174cs3D8WsBMZYR9E4wqpTCXqNQAki-Sv4rfNdbtLmXI/edit?usp=sharing">Download Resume</a></li>
                     </ul>
                 </div>
                 <div class="left-column">
@@ -80,10 +80,9 @@
 
                     <hr>
 
-                    <h4>HAVE KNOWLEDGE IN</h4>
+                    <h4>TECH STACK</h4>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                     <a target="_blank" href="#">Download Resume</a></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
                     <div id="skills">
                         <ul>
@@ -97,10 +96,7 @@
 
                 
                 <div class="social-links">
-                    <img id="social_img" src="images/profile.jpg" alt="">
-                    <h3>Find me on Facebook</h3>
-
-                    <a href="#" target="_blank">Facebook: @jshngl</a>
+                    <a href="https://www.facebook.com/jshngl"><img id="social_img" src="images/profile.jpg" alt=""></a>
                 </div>
             </div>
 
@@ -115,11 +111,10 @@
 
                 <div>
                     <div class="post">
-                        <img class="thumbnail" src="images/lorem.png" alt="placeholder">
+                        <img class="thumbnail" src="images/calc_ss.png" alt="placeholder">
                         <div class="post-preview">
-                            <h6 class="post-title">Post title</h6>
-                            <p class="post-intro">Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit.</p>
+                            <h6 class="post-title"><a href="https://github.com/joshuaangelo/Calculator_Tkinter">Calculator</a></h6>
+                            <p class="post-intro">Desktop calculator application using Tkinter.</p>
                     </div>
                     </div>
                 </div>
@@ -155,18 +150,20 @@
         <div class="main-container">
             <h3 style="text-align: center;">Get in Touch</h3>
 
-            <form id="contact-form">
+            <form id="contact-form" action="https://formsubmit.co/73965d7745fea6edff61d93be4edcb96" method="POST">
                 <label>Name</label>
                 <input class="input-field" type="text" name="name">
+
+                <input type="hidden" name="_subject" value="New submission!">
 
                 <label>Subject</label>
                 <input class="input-field" type="text" name="subject">
 
                 <label>Email</label>
-                <input class="input-field" type="text" name="email">
+                <input class="input-field" type="email" name="email" required>
 
                 <label>Message</label>
-                <textarea class="input-field" name="message"></textarea>
+                <textarea class="input-field" name="message" required></textarea>
 
                 <input id="submit-btn" type="submit" value="Send">
             </form>
